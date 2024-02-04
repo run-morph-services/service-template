@@ -1,0 +1,26 @@
+{
+  "id": "hubspot",
+  "name": "HubSpot",
+  "author": "HenriChabrand",
+  "authentication": {
+    "type": "oauth2",
+    "authorize_url": "https://app.hubspot.com/oauth/authorize",
+    "access_token_url": "https://api.hubapi.com/oauth/v1/token",
+    "configs": []
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^18.8.3",
+    "bluebird": "^3.7.2",
+    "eslint": "^7.32.0",
+    "glob": "^10.3.10",
+    "jest": "^29.7.0",
+    "prettier": "^2.5.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
